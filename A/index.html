@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AstroCode</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="comets-container">
+        <div class="comet comet1"></div>
+        <div class="comet comet2"></div>
+        <div class="comet comet3"></div>
+        <div class="comet comet4"></div>
+    </div>
+    <header>
+        <nav>
+            <div class="logo">AstroCode</div>
+            <button class="menu-toggle" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu">
+                <li><a href="#home">Bosh sahifa</a></li>
+                <li><a href="#features">Yo'nalishlar</a></li>
+                <li><a href="#courses">Darslar</a></li>
+                <li><a href="#projects">Loyihalar</a></li>
+                <li><button id="nav-login-btn" class="nav-login-btn" type="button">Kirish</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero" id="home">
+        <div class="stars"></div>
+        <div class="stars2"></div>
+        <div class="stars3"></div>
+        <div class="floating-planet planet1">🌍</div>
+        <div class="floating-planet planet2">🪐</div>
+        <div class="orbiting-satellite">🛰️</div>
+        <h1>Astronomiya va Kodlash</h1>
+        <p>Koinotni va dasturlashni birgalikda o'rganing</p>
+        <a href="#features" class="cta-button">Boshlash</a>
+    </section>
+
+    <section class="features" id="features">
+        <h2 class="section-title">Yo'nalishlar</h2>
+        <div class="features">
+            <div class="feature-card">
+                <div class="feature-icon">🌌</div>
+                <h3>Kosmos asoslari</h3>
+                <p>Yulduzlar, galaktikalar va koinot sirlarini sodda va tushunarli tilda o'rganing. Quyosh tizimi, sayyoralar va kosmik hodisalar haqida bilib oling.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">💻</div>
+                <h3>Dasturlash darslari</h3>
+                <p>Veb-dasturlash va ilmiy hisob-kitoblar uchun zarur bo'lgan kodlash ko'nikmalarini o'rganing. Python, JavaScript va boshqa tillarda astronomik loyihalar yarating.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">🔭</div>
+                <h3>Ilmiy hisob-kitoblar</h3>
+                <p>Astronomik ma'lumotlarni tahlil qilish, orbitani hisoblash va kosmik simulyatsiyalar yaratish uchun kod yozing.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="courses" class="courses">
+        <h2 class="section-title">Darslar</h2>
+        <div class="courses-grid">
+            <div class="course-card">
+                <div class="course-icon">🌍</div>
+                <h3>Quyosh tizimi</h3>
+                <p>Quyosh, sayyoralar va ularning harakatlarini o'rganing. Orbitani hisoblash va vizualizatsiya qilish.</p>
+                <a href="#" class="course-link">Batafsil →</a>
+            </div>
+            <div class="course-card">
+                <div class="course-icon">⭐</div>
+                <h3>Yulduzlar va galaktikalar</h3>
+                <p>Yulduzlar turlari, galaktikalar struktura va koinotning kengayishi haqida bilib oling.</p>
+                <a href="#" class="course-link">Batafsil →</a>
+            </div>
+            <div class="course-card">
+                <div class="course-icon">🐍</div>
+                <h3>Python bilan astronomiya</h3>
+                <p>Python dasturlash tilida astronomik ma'lumotlarni qayta ishlash va tahlil qilish.</p>
+                <a href="#" class="course-link">Batafsil →</a>
+            </div>
+            <div class="course-card">
+                <div class="course-icon">🌐</div>
+                <h3>Veb-dasturlash</h3>
+                <p>HTML, CSS va JavaScript yordamida astronomik veb-saytlar va interaktiv vizualizatsiyalar yarating.</p>
+                <a href="#" class="course-link">Batafsil →</a>
+            </div>
+            <div class="course-card">
+                <div class="course-icon">📊</div>
+                <h3>Ma'lumotlar tahlili</h3>
+                <p>Kosmik teleskoplar tomonidan yig'ilgan ma'lumotlarni tahlil qilish va grafiklar yaratish.</p>
+                <a href="#" class="course-link">Batafsil →</a>
+            </div>
+            <div class="course-card">
+                <div class="course-icon">🚀</div>
+                <h3>Kosmik simulyatsiyalar</h3>
+                <p>Sayyoralar harakati, yulduzlar tizimi va boshqa kosmik hodisalarni simulyatsiya qilish.</p>
+                <a href="#" class="course-link">Batafsil →</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2 class="section-title">Loyihalar</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <h3 class="project-title">Quyosh tizimi simulyator</h3>
+                <p class="project-description">Interaktiv quyosh tizimi simulyatori. Sayyoralarni real vaqtda harakatlantiring va ularning orbitasini kuzating.</p>
+                <div class="project-tech">
+                    <span class="tech-tag">JavaScript</span>
+                    <span class="tech-tag">Canvas API</span>
+                    <span class="tech-tag">Astronomiya</span>
+                </div>
+                <a href="#" class="project-link">Ko'rish →</a>
+            </div>
+            <div class="project-card">
+                <h3 class="project-title">Yulduzlar xaritasi</h3>
+                <p class="project-description">3D yulduzlar xaritasi. Yulduzlar masofasi, rang va yorug'likni vizualizatsiya qiling.</p>
+                <div class="project-tech">
+                    <span class="tech-tag">WebGL</span>
+                    <span class="tech-tag">Three.js</span>
+                    <span class="tech-tag">3D</span>
+                </div>
+                <a href="#" class="project-link">Ko'rish →</a>
+            </div>
+            <div class="project-card">
+                <h3 class="project-title">Orbita kalkulyatori</h3>
+                <p class="project-description">Sayyoralar orbitasini hisoblash va vizualizatsiya qilish dasturi. Kepler qonunlaridan foydalaning.</p>
+                <div class="project-tech">
+                    <span class="tech-tag">Python</span>
+                    <span class="tech-tag">NumPy</span>
+                    <span class="tech-tag">Matplotlib</span>
+                </div>
+                <a href="#" class="project-link">Ko'rish →</a>
+            </div>
+            <div class="project-card">
+                <h3 class="project-title">Kosmos API</h3>
+                <p class="project-description">Astronomik ma'lumotlar uchun RESTful API. Yulduzlar, sayyoralar va kosmik hodisalar haqida ma'lumot oling.</p>
+                <div class="project-tech">
+                    <span class="tech-tag">Node.js</span>
+                    <span class="tech-tag">Express</span>
+                    <span class="tech-tag">MongoDB</span>
+                </div>
+                <a href="#" class="project-link">Ko'rish →</a>
+            </div>
+            <div class="project-card">
+                <h3 class="project-title">Astronomik kalkulyator</h3>
+                <p class="project-description">Turli astronomik hisob-kitoblar: masofa, yorug'lik, vaqt konvertatsiyasi va boshqalar.</p>
+                <div class="project-tech">
+                    <span class="tech-tag">React</span>
+                    <span class="tech-tag">TypeScript</span>
+                    <span class="tech-tag">Astronomiya</span>
+                </div>
+                <a href="#" class="project-link">Ko'rish →</a>
+            </div>
+            <div class="project-card">
+                <h3 class="project-title">Koinot yangiliklari</h3>
+                <p class="project-description">Eng so'nggi kosmik yangiliklarni ko'rsatadigan veb-sayt. NASA va ESA ma'lumotlaridan foydalanadi.</p>
+                <div class="project-tech">
+                    <span class="tech-tag">Vue.js</span>
+                    <span class="tech-tag">API</span>
+                    <span class="tech-tag">RSS</span>
+                </div>
+                <a href="#" class="project-link">Ko'rish →</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <h2 class="section-title">Biz haqimizda</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p class="about-kicker">Astronomiya + Dasturlash = AstroCode tajribasi.</p>
+                <p>AstroCode — bu yulduzlar, galaktikalar va sun'iy yo‘ldoshlar olamini kod orqali ochib beradigan platforma. Saytimizda bir tomonda kosmik ilm-fan, ikkinchi tomonda esa zamonaviy web va Python dasturlash uslublari uyg‘unlashgan.</p>
+                <ul class="about-list">
+                    <li><strong>Astronomiya:</strong> sayyoralar, yulduzlar va orbitani tushuntiruvchi vizual darslar, simulyatsiyalar va interaktiv loyihalar.</li>
+                    <li><strong>Kodlash:</strong> HTML, CSS, JavaScript va Python yordamida kosmik ma'lumotlar bilan ishlash, grafikalar va simulyatsiyalar yaratish.</li>
+                    <li><strong>Loyihalar:</strong> Quyosh tizimi simulyatori, yulduzlar xaritasi, orbita kalkulyatori va boshqa real, amaliy mini-ilovalar.</li>
+                    <li><strong>Hamjamiyat:</strong> o‘zbek tilida resurslar, tushunarli tushuntirishlar va birgalikda o‘sish uchun qulay muhit.</li>
+                </ul>
+            </div>
+            <div class="about-image">
+                <img src="https://www.unsw.edu.au/content/dam/images/canberra/unsw-canberra/space/events/2025-asdastm-conference/2025-04-render-of-m2-satellite-in-orbit-square-crop.cropimg.width=1920.crop=square.jpg" alt="UNSW Canberra Space - sun'iy yo'ldosh va kosmik tadqiqotlar" loading="lazy">
+            </div>
+        </div>
+    </section>
+
+    <!-- Auth Modal -->
+    <div id="auth-modal" class="auth-modal-overlay" aria-hidden="true">
+        <div class="auth-modal">
+            <button class="auth-modal-close" type="button" aria-label="Yopish">✕</button>
+            <h2 class="section-title auth-title">Kirish</h2>
+            <div class="auth-modal-body">
+                <form id="modal-login-form" class="auth-form auth-form-login">
+                    <label for="modal-login-email">Email</label>
+                    <input id="modal-login-email" name="email" type="email" placeholder="email@example.com" required>
+
+                    <label for="modal-login-password">Parol</label>
+                    <input id="modal-login-password" name="password" type="password" placeholder="••••••••" required>
+
+                    <button type="submit" class="cta-button full">Kirish</button>
+                    <p class="form-note inline-note">
+                        Akkauntingiz yo'qmi?
+                        <button type="button" class="link-button" id="show-signup-btn">Ro'yxatdan o'tish</button>
+                    </p>
+                </form>
+
+                <form id="modal-signup-form" class="auth-form auth-form-signup">
+                    <label for="modal-signup-name">Ism</label>
+                    <input id="modal-signup-name" name="name" type="text" placeholder="Ismingiz" required>
+
+                    <label for="modal-signup-email">Email</label>
+                    <input id="modal-signup-email" name="email" type="email" placeholder="email@example.com" required>
+
+                    <label for="modal-signup-password">Parol</label>
+                    <input id="modal-signup-password" name="password" type="password" placeholder="Kamida 8 ta belgi" minlength="8" required>
+
+                    <button type="submit" class="cta-button full">Ro'yxatdan o'tish</button>
+                    <p class="form-note inline-note">
+                        Hisobingiz bormi?
+                        <button type="button" class="link-button" id="show-login-btn">Kirish</button>
+                    </p>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <footer id="contact">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>AstroCode</h4>
+                <p>Astronomiya va dasturlashni o'rganish uchun eng yaxshi manba.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Tezkor havolalar</h4>
+                <a href="#home">Bosh sahifa</a>
+                <a href="#courses">Darslar</a>
+                <a href="#projects">Loyihalar</a>
+                <a href="#about">Biz haqimizda</a>
+            </div>
+            <div class="footer-section">
+                <h4>Aloqa</h4>
+                <p>Email: astrocode@hdx.uz</p>
+                <p>Telegram: @hdxastrocode</p>
+            </div>
+        </div>
+        <p>&copy; 2024 AstroCode. Barcha huquqlar himoyalangan.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
